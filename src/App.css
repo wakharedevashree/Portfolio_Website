@@ -333,7 +333,72 @@ body {
   border-color: #1576ff;
 }
 
+@media (max-width: 768px) {
+  .home-section img {
+      margin-top: .5rem;
+      width: 300px;
+      height: 250px;
+      border-radius: 50%;
+      border: 2px #0ef solid;
+      box-shadow: 0 0 20px rgba(21, 118, 255, 0.5), 0 0 40px rgba(0, 238, 255, 0.3);
+      object-fit: cover;
+    }
+  
+    .home-section h1 {
+      text-align: center;
+      width: 100%;
+      font-size: 40px;
+      font-weight: 600;
+    }
+  
+   
+}
+@media (max-width: 468px) {
+  .home-section img {
+      margin-top: .5rem;
+      width: 300px;
+      height: 250px;
+      border-radius: 50%;
+      border: 2px #0ef solid;
+      box-shadow: 0 0 20px rgba(21, 118, 255, 0.5), 0 0 40px rgba(0, 238, 255, 0.3);
+      object-fit: cover;
+    }
+  
+    .home-section h1 {
+      text-align: center;
+      width: 100%;
+      font-size: 40px;
+      font-weight: 600;
+    }
+        .home-action {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 25px;
+          font-weight: 500;
+          margin: 50px;
+              }
+                            .home-connect {
+                              padding: 20px 40px;
+                              border-radius: 50px;
+                              background: linear-gradient(264deg, #0ef -5.09%, #1576ff 106.28%);
+                              font-size: 1.2rem;
+                              cursor: pointer;
+                            }
+                                                        .home-connect:hover {
+                                    .hero-resume:hover {
+                                        border-color: #1576ff;
+                                      }                      border: 2px solid white;
+                                                        }
 
+                                                        .hero-resume {
+                                                          padding: 20px 40px;
+                                                          border-radius: 50px;
+                                                          border: 2px solid white;
+                                                          cursor: pointer;
+                                                          font-size: 1.2rem;
+                                                        }
+}
 
 /* about section */
 
